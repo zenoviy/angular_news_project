@@ -1,0 +1,13 @@
+<app-news-main-header></app-news-main-header>
+
+<section class="content-wrapper">
+  <h1>Users</h1>
+  <h2>Display All Users</h2>
+
+  <ul *ngFor="let obj of loginService.logData;  index as index; trackBy: trackByCode" [ngClass]="'name-wrapper'">
+      <li *ngIf="!loginService.loginSucess">{{index+1}} {{obj.user.name}} <span *ngIf="obj._id" class="close-cross" id="{{obj._id}}" (click)="deleteUser(obj._id)">X</span></li>
+      <li *ngIf="loginService.loginSucess" [ngClass]="{'select-account': obj._id == loginService.userData._id }">{{index+1}} {{obj.user.name}} <span *ngIf="obj._id" class="close-cross" id="{{obj._id}}" (click)="deleteUser(obj._id)">X</span></li>
+    </ul>
+  <div *ngIf="!loginService.logData">...Loading...</div>
+  <div *ngIf="loginService.logData && loginService.logData.length == 0">No Users at this time</div>
+</section>

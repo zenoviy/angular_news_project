@@ -1,0 +1,5 @@
+<p >
+  <span *ngFor="let link of routeArr; let indx = index;">
+    <a [routerLink]="[routeLinkArr[indx]]">/{{link}}</a>
+  </span>
+</p>

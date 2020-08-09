@@ -1,0 +1,51 @@
+<form  [formGroup]="profileForms" (ngSubmit)="inspectForm()">
+  <div class="login-side" >
+      <h2>Registration</h2>
+    <label for="name">Name:</label>
+    <input id="name" type="text" formControlName="name" required [value]="" placeholder="Enter you name">
+
+    <div *ngIf="name.invalid && (name.dirty || name.touched)"class="alert alert-danger">  <!-- Name Validation -->
+        <div *ngIf="name.errors.required">
+          Name is required.
+        </div>
+        <div *ngIf="name.errors.minlength">
+          Name must be at least 4 characters long.
+        </div>
+    </div>
+
+    <label for="email"> Email:</label>
+    <input id="email" type="text" formControlName="email" required placeholder="user.name@mail.com" >
+
+
+    <div *ngIf="email.invalid && (f.email.dirty || f.email.touched)"class="alert alert-danger">  <!-- Name Validation -->
+        <div *ngIf="email.errors.required">
+          Email is required.
+        </div>
+        <div *ngIf="email.errors.email">
+          Should be you.name@email.com with you Email adress.
+        </div>
+    </div>
+
+
+    <label for="password">Password:</label>
+    <input id="password" type="text" formControlName="password" required  placeholder="Create password">
+    <div *ngIf="password.invalid && (password.dirty || password.touched)"class="alert alert-danger">  <!-- Name Validation -->
+      <div *ngIf="password.errors.required">
+        password is required.
+      </div>
+      <div *ngIf="password.errors.pattern">
+      Pattern error
+      </div>
+      <div *ngIf="password.errors.minlength">
+          Name must be at least 8 characters long.
+        </div>
+  </div>
+    <p>
+      <button type="submit"  [ngClass]="{'active-form-button': profileForms.valid, 'inactive': !profileForms.valid}" >{{ profileForms.valid? 'Registration' :  'Check all fields' }} </button>
+      <button  class="facebook-btn" (click)="faceboolLogin($event)">Facebook</button>
+    </p>
+    <!--<span >{{ errorState? 'there is incorect or empty fields!' : this.loginService.errorMessage? this.loginService.errorMessage : '' }}</span>-->
+  </div>
+   <!--<p *ngIf="displayData" class="data-message">{{  displayData }}</p>-->
+  <p *ngIf="errorState" class="data-message">{{ errorText }}</p>
+</form>

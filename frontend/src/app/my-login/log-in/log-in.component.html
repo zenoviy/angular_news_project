@@ -1,0 +1,41 @@
+<form  [formGroup]="profileForms" (ngSubmit)="inspectForm()">
+  <div *ngIf="!loginService.loginSucess">
+  <div class="login-side" >
+        <h2>LogIn</h2>
+    <label> Email:</label>
+    <input type="text" formControlName="email" required placeholder="user.name@mail.com" >
+
+
+    <div *ngIf="email.invalid && (f.email.dirty || f.email.touched)"class="alert alert-danger">  <!-- Name Validation -->
+        <div *ngIf="email.errors.required">
+          Email is required.
+        </div>
+        <div *ngIf="email.errors.email">
+          Should be you.name@email.com with you Email adress.
+        </div>
+    </div>
+
+
+    <label>Password:</label>
+    <input type="password" formControlName="password" required  placeholder="Enter you password">
+    <div *ngIf="password.invalid && (password.dirty || password.touched)"class="alert alert-danger">  <!-- Name Validation -->
+      <div *ngIf="password.errors.required">
+        Email is required.
+      </div>
+      <div *ngIf="password.errors.pattern">
+      Pattern error
+      </div>
+  </div>
+    <p>
+      <button type="submit" [ngClass]="{'active-form-button': profileForms.valid, 'inactive': !profileForms.valid}" >{{ profileForms.valid? 'Log in' :  'Check you all input' }} </button>
+      <button  class="facebook-btn" (click)="faceboolLogin($event)">Facebook</button>
+    </p>
+  </div>
+  <!--<p *ngIf="displayData" class="data-message">{{displayData }}</p>-->
+  <p *ngIf="errorState" class="data-message">{{ errorText }}</p>
+  </div>
+  <div *ngIf="loginService.loginSucess">
+      <h2>Hi {{ loginService.userData?  loginService.userData.user.name : 'User' }}! you are logged in</h2>
+      <button (click)="logout()" [ngClass] ="'logout-button'"> LOG OUT </button>
+  </div>
+</form>

@@ -1,0 +1,23 @@
+:root{
+  --content-section-width: 1200px;
+  --header-height: 556px;
+
+  --main-fonts: 'Roboto', sans-serif;
+
+  --extra-small-fonts: 10px;
+  --small-fonts: 12px;
+  --regular-fonts: 14px;
+  --large-fonts: 18px;
+
+  --main-app-color: #F77B63;
+  --footer-color: #3A3A3A;
+
+  --black-font-color: #2F2F2F;
+  --white-font-color: #ffffff;
+
+  --button-default-padding: 12px 10px 12px;
+  --button-radius: 5px;
+
+
+
+}

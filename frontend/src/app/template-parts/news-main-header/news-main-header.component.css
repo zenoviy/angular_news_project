@@ -1,0 +1,9 @@
+.main-header-wrapper{
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+  /*display:grid;*/
+}
+.main-header-wrapper h2, .main-header-wrapper p{
+  color: #fff;
+}

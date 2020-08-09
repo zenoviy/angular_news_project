@@ -1,0 +1,26 @@
+<app-news-main-header></app-news-main-header>
+
+<section class="content-wrapper">
+  <h1>Home</h1>
+  <h2>All News</h2>
+<!-- brandDescription[indx].pictureName -->
+  <div class="row">
+    <ng-container *ngIf="newsObject.newsInfo">
+    <div *ngFor="let obj of newsObject.newsInfo; let indx = index; "  [ngClass]="{'news-source-wrapper card col-md-4 col-sm-1': obj.backgroundImage}" >
+        <div *ngIf="obj.numberOfNews > 0">
+          <a [routerLink]="['/', obj.backgroundImage.src]">
+          <img *ngIf="brandDescription[indx].pictureName" class="card-brand-image" src="assets/img/news icons/{{ findBrandPic(obj).pictureName}}.jpg" alt="brand-image">
+            <div class="news-brand-card" >
+              <img *ngIf="brandDescription[indx].pictureName" class="card-background-image" src="{{findBrandPic(obj).newPic}}" alt="brand-image">
+            </div>
+            <img *ngIf="obj.backgroundImage.urlToImage"  class="card-img-top" src="{{obj.backgroundImage.urlToImage}}" alt="NoImage">
+            <div class="card-body">
+              <h3> {{obj.sourceName}}</h3>
+              <p class="card-text">{{shortDescription(obj.backgroundImage.description)}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</section>

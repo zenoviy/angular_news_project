@@ -1,0 +1,43 @@
+.page-form-wrapper{
+  position: fixed;
+  width: 500px;
+  top: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 6px 21px 26px #0000002e;
+  background: #fff;
+  z-index: 100;
+  margin: 0 auto;
+  margin-left: 32%;
+
+}
+.hide-form{
+  display:none;
+}
+.show-form{
+  display:block;
+}
+.loading-screen{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+.loading{
+  background-image: url('../assets/img/loader-png-indicator-loader-spinner-icon-512.png');
+  background-size: contain;
+  transform: rotate(0deg);
+  width: 100px;
+  height: 100px;
+  position :relative;
+  animation: load-spin 2s infinite linear reverse;
+  z-index: 1000;
+}
+@keyframes load-spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}

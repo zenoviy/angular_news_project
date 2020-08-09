@@ -1,0 +1,15 @@
+
+<!--<h3>{{profileForms.status}}</h3>
+
+<span *ngIf="name.value"> | name: {{ name.value }}</span>
+<span *ngIf="email.value"> | email: {{ email.value }}</span>
+<span *ngIf="password.value"> | password: {{ password.value }}</span>-->
+<div class="form-wrapper" *ngIf="checkInput()">
+
+
+  <button *ngIf="!loginService.loginSucess" (click)="useRegistration()" [ngClass]="{'form-active-option': loginService.formMode}" class="form-upper-option-btn">Registration</button>
+  <button *ngIf="!loginService.loginSucess" style="float:right;" (click)="useLogIn()" [ngClass]="{'form-active-option': !loginService.formMode}" class="form-upper-option-btn">login</button>
+  <div *ngIf="loginService.formMode&&!loginService.loginSucess"><app-registration></app-registration></div>
+  <div *ngIf="!loginService.formMode"><app-log-in></app-log-in></div>
+
+</div>

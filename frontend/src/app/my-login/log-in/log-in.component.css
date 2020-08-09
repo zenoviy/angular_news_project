@@ -1,0 +1,29 @@
+form input{
+  display: block;
+  width:95%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding:10px;
+  border-radius:5px;
+  border: 1px solid #bbb;
+}
+.form-active-option{
+  border-bottom: 2px solid red;
+}
+.logout-button{
+  border: 2px solid red;
+  color: red;
+  margin: 0 auto;
+  display: block;
+  background: none;
+  width: 80%;
+  margin-bottom: 31px;
+  margin-top: 50px;
+}
+.data-message{
+  font-size: 14px;
+  color: #606060;
+}
+/*.facebook-btn{
+  float:right;
+}*/

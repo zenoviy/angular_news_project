@@ -1,0 +1,392 @@
+A
+800
+LIBRARY
+
+
+# Forests ############################################################################################################
+
+EXPORT lib/g10/forests/AG_trees_EU1.for Trees/AG_trees_EU1.for
+EXPORT lib/g10/forests/AG_temperate2.for Trees/AG_temperate2.for
+EXPORT lib/g10/forests/AG_temperate1.for Trees/AG_temperate1.for
+
+EXPORT lib/g8/broad_tmp_wet.for Trees/broad_tmp_wet.for
+EXPORT lib/g8/broad_tmp_dry.for Trees/broad_tmp_dry.for
+EXPORT lib/g8/broad_tmp_sdry.for Trees/broad_tmp_sdry.for
+EXPORT lib/g8/broad_tmp_rain.for Trees/broad_tmp_rain.for
+
+EXPORT lib/g8/broad_hot_wet.for Trees/broad_hot_wet.for
+EXPORT lib/g8/broad_hot_dry.for Trees/broad_hot_dry.for
+EXPORT lib/g8/broad_hot_sdry.for Trees/broad_hot_sdry.for
+EXPORT lib/g8/broad_hot_rain.for Trees/broad_hot_rain.for
+
+EXPORT lib/g8/broad_wrm_wet.for Trees/broad_wrm_wet.for
+EXPORT lib/g8/broad_wrm_dry.for Trees/broad_wrm_dry.for
+EXPORT lib/g8/broad_wrm_sdry.for Trees/broad_wrm_sdry.for
+EXPORT lib/g8/broad_wrm_rain.for Trees/broad_wrm_rain.for
+
+EXPORT lib/g8/broad_cld_wet.for Trees/broad_cld_wet.for
+EXPORT lib/g8/broad_cld_dry.for Trees/broad_cld_dry.for
+EXPORT lib/g8/broad_cld_sdry.for Trees/broad_cld_sdry.for
+EXPORT lib/g8/broad_cld_rain.for Trees/broad_cld_rain.for
+
+EXPORT lib/g8/broad_vcld_wet.for Trees/broad_vcld_wet.for
+EXPORT lib/g8/broad_vcld_dry.for Trees/broad_vcld_dry.for
+EXPORT lib/g8/broad_vcld_sdry.for Trees/broad_vcld_sdry.for
+EXPORT lib/g8/broad_vcld_rain.for Trees/broad_vcld_rain.for
+
+EXPORT lib/g8/broad_vhot_wet.for Trees/broad_vhot_wet.for
+EXPORT lib/g8/broad_vhot_dry.for Trees/broad_vhot_dry.for
+EXPORT lib/g8/broad_vhot_sdry.for Trees/broad_vhot_sdry.for
+EXPORT lib/g8/broad_vhot_rain.for Trees/broad_vhot_rain.for
+
+EXPORT lib/g8/broad_sp_hot_wet.for Trees/broad_sp_hot_wet.for
+EXPORT lib/g8/broad_sp_hot_dry.for Trees/broad_sp_hot_dry.for
+EXPORT lib/g8/broad_sp_hot_sdry.for Trees/broad_sp_hot_sdry.for
+EXPORT lib/g8/broad_sp_hot_rain.for Trees/broad_sp_hot_rain.for
+
+EXPORT lib/g8/broad_sp_tmp_wet.for Trees/broad_sp_tmp_wet.for
+EXPORT lib/g8/broad_sp_tmp_dry.for Trees/broad_sp_tmp_dry.for
+EXPORT lib/g8/broad_sp_tmp_sdry.for Trees/broad_sp_tmp_sdry.for
+EXPORT lib/g8/broad_sp_tmp_rain.for Trees/broad_sp_tmp_rain.for
+
+EXPORT lib/g8/broad_sp_cld_wet.for Trees/broad_sp_cld_wet.for
+EXPORT lib/g8/broad_sp_cld_dry.for Trees/broad_sp_cld_dry.for
+EXPORT lib/g8/broad_sp_cld_sdry.for Trees/broad_sp_cld_sdry.for
+EXPORT lib/g8/broad_sp_cld_rain.for Trees/broad_sp_cld_rain.for
+
+EXPORT lib/g8/broad_sp_wrm_wet.for Trees/broad_sp_wrm_wet.for
+EXPORT lib/g8/broad_sp_wrm_dry.for Trees/broad_sp_wrm_dry.for
+EXPORT lib/g8/broad_sp_wrm_sdry.for Trees/broad_sp_wrm_sdry.for
+EXPORT lib/g8/broad_sp_wrm_rain.for Trees/broad_sp_wrm_rain.for
+
+EXPORT lib/g8/broad_sp_vcld_wet.for Trees/broad_sp_vcld_wet.for
+EXPORT lib/g8/broad_sp_vcld_dry.for Trees/broad_sp_vcld_dry.for
+EXPORT lib/g8/broad_sp_vcld_sdry.for Trees/broad_sp_vcld_sdry.for
+EXPORT lib/g8/broad_sp_vcld_rain.for Trees/broad_sp_vcld_rain.for
+
+EXPORT lib/g8/broad_sp_vhot_wet.for Trees/broad_sp_vhot_wet.for
+EXPORT lib/g8/broad_sp_vhot_dry.for Trees/broad_sp_vhot_dry.for
+EXPORT lib/g8/broad_sp_vhot_sdry.for Trees/broad_sp_vhot_sdry.for
+EXPORT lib/g8/broad_sp_vhot_rain.for Trees/broad_sp_vhot_rain.for
+
+EXPORT lib/g8/coni_hot_wet.for Trees/coni_hot_wet.for
+EXPORT lib/g8/coni_hot_dry.for Trees/coni_hot_dry.for
+EXPORT lib/g8/coni_hot_sdry.for Trees/coni_hot_sdry.for
+EXPORT lib/g8/coni_hot_rain.for Trees/coni_hot_rain.for
+
+EXPORT lib/g8/coni_tmp_wet.for Trees/coni_tmp_wet.for
+EXPORT lib/g8/coni_tmp_dry.for Trees/coni_tmp_dry.for
+EXPORT lib/g8/coni_tmp_sdry.for Trees/coni_tmp_sdry.for
+EXPORT lib/g8/coni_tmp_rain.for Trees/coni_tmp_rain.for
+
+EXPORT lib/g8/coni_cld_wet.for Trees/coni_cld_wet.for
+EXPORT lib/g8/coni_cld_dry.for Trees/coni_cld_dry.for
+EXPORT lib/g8/coni_cld_sdry.for Trees/coni_cld_sdry.for
+EXPORT lib/g8/coni_cld_rain.for Trees/coni_cld_rain.for
+
+EXPORT lib/g8/coni_wrm_wet.for Trees/coni_wrm_wet.for
+EXPORT lib/g8/coni_wrm_dry.for Trees/coni_wrm_dry.for
+EXPORT lib/g8/coni_wrm_sdry.for Trees/coni_wrm_sdry.for
+EXPORT lib/g8/coni_wrm_rain.for Trees/coni_wrm_rain.for
+
+EXPORT lib/g8/coni_vcld_wet.for Trees/coni_vcld_wet.for
+EXPORT lib/g8/coni_vcld_dry.for Trees/coni_vcld_dry.for
+EXPORT lib/g8/coni_vcld_sdry.for Trees/coni_vcld_sdry.for
+EXPORT lib/g8/coni_vcld_rain.for Trees/coni_vcld_rain.for
+
+EXPORT lib/g8/coni_vhot_wet.for Trees/coni_vhot_wet.for
+EXPORT lib/g8/coni_vhot_dry.for Trees/coni_vhot_dry.for
+EXPORT lib/g8/coni_vhot_sdry.for Trees/coni_vhot_sdry.for
+EXPORT lib/g8/coni_vhot_rain.for Trees/coni_vhot_rain.for
+
+EXPORT lib/g8/coni_sp_hot_wet.for Trees/coni_sp_hot_wet.for
+EXPORT lib/g8/coni_sp_hot_dry.for Trees/coni_sp_hot_dry.for
+EXPORT lib/g8/coni_sp_hot_sdry.for Trees/coni_sp_hot_sdry.for
+EXPORT lib/g8/coni_sp_hot_rain.for Trees/coni_sp_hot_rain.for
+
+EXPORT lib/g8/coni_sp_tmp_wet.for Trees/coni_sp_tmp_wet.for
+EXPORT lib/g8/coni_sp_tmp_dry.for Trees/coni_sp_tmp_dry.for
+EXPORT lib/g8/coni_sp_tmp_sdry.for Trees/coni_sp_tmp_sdry.for
+EXPORT lib/g8/coni_sp_tmp_rain.for Trees/coni_sp_tmp_rain.for
+
+EXPORT lib/g8/coni_sp_cld_wet.for Trees/coni_sp_cld_wet.for
+EXPORT lib/g8/coni_sp_cld_dry.for Trees/coni_sp_cld_dry.for
+EXPORT lib/g8/coni_sp_cld_sdry.for Trees/coni_sp_cld_sdry.for
+EXPORT lib/g8/coni_sp_cld_rain.for Trees/coni_sp_cld_rain.for
+
+EXPORT lib/g8/coni_sp_wrm_wet.for Trees/coni_sp_wrm_wet.for
+EXPORT lib/g8/coni_sp_wrm_dry.for Trees/coni_sp_wrm_dry.for
+EXPORT lib/g8/coni_sp_wrm_sdry.for Trees/coni_sp_wrm_sdry.for
+EXPORT lib/g8/coni_sp_wrm_rain.for Trees/coni_sp_wrm_rain.for
+
+EXPORT lib/g8/coni_sp_vcld_wet.for Trees/coni_sp_vcld_wet.for
+EXPORT lib/g8/coni_sp_vcld_dry.for Trees/coni_sp_vcld_dry.for
+EXPORT lib/g8/coni_sp_vcld_sdry.for Trees/coni_sp_vcld_sdry.for
+EXPORT lib/g8/coni_sp_vcld_rain.for Trees/coni_sp_vcld_rain.for
+
+EXPORT lib/g8/coni_sp_vhot_wet.for Trees/coni_sp_vhot_wet.for
+EXPORT lib/g8/coni_sp_vhot_dry.for Trees/coni_sp_vhot_dry.for
+EXPORT lib/g8/coni_sp_vhot_sdry.for Trees/coni_sp_vhot_sdry.for
+EXPORT lib/g8/coni_sp_vhot_rain.for Trees/coni_sp_vhot_rain.for
+
+EXPORT lib/g8/mixed_hot_wet.for Trees/mixed_hot_wet.for
+EXPORT lib/g8/mixed_hot_dry.for Trees/mixed_hot_dry.for
+EXPORT lib/g8/mixed_hot_sdry.for Trees/mixed_hot_sdry.for
+EXPORT lib/g8/mixed_hot_rain.for Trees/mixed_hot_rain.for
+
+EXPORT lib/g8/mixed_tmp_wet.for Trees/mixed_tmp_wet.for
+EXPORT lib/g8/mixed_tmp_dry.for Trees/mixed_tmp_dry.for
+EXPORT lib/g8/mixed_tmp_sdry.for Trees/mixed_tmp_sdry.for
+EXPORT lib/g8/mixed_tmp_rain.for Trees/mixed_tmp_rain.for
+
+EXPORT lib/g8/mixed_cld_wet.for Trees/mixed_cld_wet.for
+EXPORT lib/g8/mixed_cld_dry.for Trees/mixed_cld_dry.for
+EXPORT lib/g8/mixed_cld_sdry.for Trees/mixed_cld_sdry.for
+EXPORT lib/g8/mixed_cld_rain.for Trees/mixed_cld_rain.for
+
+EXPORT lib/g8/mixed_wrm_wet.for Trees/mixed_wrm_wet.for
+EXPORT lib/g8/mixed_wrm_dry.for Trees/mixed_wrm_dry.for
+EXPORT lib/g8/mixed_wrm_sdry.for Trees/mixed_wrm_sdry.for
+EXPORT lib/g8/mixed_wrm_rain.for Trees/mixed_wrm_rain.for
+
+EXPORT lib/g8/mixed_vcld_wet.for Trees/mixed_vcld_wet.for
+EXPORT lib/g8/mixed_vcld_dry.for Trees/mixed_vcld_dry.for
+EXPORT lib/g8/mixed_vcld_sdry.for Trees/mixed_vcld_sdry.for
+EXPORT lib/g8/mixed_vcld_rain.for Trees/mixed_vcld_rain.for
+
+EXPORT lib/g8/mixed_vhot_wet.for Trees/mixed_vhot_wet.for
+EXPORT lib/g8/mixed_vhot_dry.for Trees/mixed_vhot_dry.for
+EXPORT lib/g8/mixed_vhot_sdry.for Trees/mixed_vhot_sdry.for
+EXPORT lib/g8/mixed_vhot_rain.for Trees/mixed_vhot_rain.for
+
+EXPORT lib/g8/mixed_sp_hot_wet.for Trees/mixed_sp_hot_wet.for
+EXPORT lib/g8/mixed_sp_hot_dry.for Trees/mixed_sp_hot_dry.for
+EXPORT lib/g8/mixed_sp_hot_sdry.for Trees/mixed_sp_hot_sdry.for
+EXPORT lib/g8/mixed_sp_hot_rain.for Trees/mixed_sp_hot_rain.for
+
+EXPORT lib/g8/mixed_sp_tmp_wet.for Trees/mixed_sp_tmp_wet.for
+EXPORT lib/g8/mixed_sp_tmp_dry.for Trees/mixed_sp_tmp_dry.for
+EXPORT lib/g8/mixed_sp_tmp_sdry.for Trees/mixed_sp_tmp_sdry.for
+EXPORT lib/g8/mixed_sp_tmp_rain.for Trees/mixed_sp_tmp_rain.for
+
+EXPORT lib/g8/mixed_sp_cld_wet.for Trees/mixed_sp_cld_wet.for
+EXPORT lib/g8/mixed_sp_cld_dry.for Trees/mixed_sp_cld_dry.for
+EXPORT lib/g8/mixed_sp_cld_sdry.for Trees/mixed_sp_cld_sdry.for
+EXPORT lib/g8/mixed_sp_cld_rain.for Trees/mixed_sp_cld_rain.for
+
+EXPORT lib/g8/mixed_sp_wrm_wet.for Trees/mixed_sp_wrm_wet.for
+EXPORT lib/g8/mixed_sp_wrm_dry.for Trees/mixed_sp_wrm_dry.for
+EXPORT lib/g8/mixed_sp_wrm_sdry.for Trees/mixed_sp_wrm_sdry.for
+EXPORT lib/g8/mixed_sp_wrm_rain.for Trees/mixed_sp_wrm_rain.for
+
+EXPORT lib/g8/mixed_sp_vcld_wet.for Trees/mixed_sp_vcld_wet.for
+EXPORT lib/g8/mixed_sp_vcld_dry.for Trees/mixed_sp_vcld_dry.for
+EXPORT lib/g8/mixed_sp_vcld_sdry.for Trees/mixed_sp_vcld_sdry.for
+EXPORT lib/g8/mixed_sp_vcld_rain.for Trees/mixed_sp_vcld_rain.for
+
+EXPORT lib/g8/mixed_sp_vhot_wet.for Trees/mixed_sp_vhot_wet.for
+EXPORT lib/g8/mixed_sp_vhot_dry.for Trees/mixed_sp_vhot_dry.for
+EXPORT lib/g8/mixed_sp_vhot_sdry.for Trees/mixed_sp_vhot_sdry.for
+EXPORT lib/g8/mixed_sp_vhot_rain.for Trees/mixed_sp_vhot_rain.for
+
+EXPORT lib/g8/fruit_hot_dry.for Trees/fruit_hot_dry.for
+EXPORT lib/g8/fruit_hot_rain.for Trees/fruit_hot_rain.for
+EXPORT lib/g8/fruit_hot_sdry.for Trees/fruit_hot_sdry.for
+EXPORT lib/g8/fruit_hot_wet.for Trees/fruit_hot_wet.for
+
+EXPORT lib/g8/fruit_tmp_dry.for Trees/fruit_tmp_dry.for
+EXPORT lib/g8/fruit_tmp_rain.for Trees/fruit_tmp_rain.for
+EXPORT lib/g8/fruit_tmp_sdry.for Trees/fruit_tmp_sdry.for
+EXPORT lib/g8/fruit_tmp_wet.for Trees/fruit_tmp_wet.for
+
+EXPORT lib/g8/fruit_vhot_dry.for Trees/fruit_vhot_dry.for
+EXPORT lib/g8/fruit_vhot_rain.for Trees/fruit_vhot_rain.for
+EXPORT lib/g8/fruit_vhot_sdry.for Trees/fruit_vhot_sdry.for
+EXPORT lib/g8/fruit_vhot_wet.for Trees/fruit_vhot_wet.for
+
+EXPORT lib/g8/fruit_wrm_dry.for Trees/fruit_wrm_dry.for
+EXPORT lib/g8/fruit_wrm_rain.for Trees/fruit_wrm_rain.for
+EXPORT lib/g8/fruit_wrm_sdry.for Trees/fruit_wrm_sdry.for
+EXPORT lib/g8/fruit_wrm_wet.for Trees/fruit_wrm_wet.for
+
+EXPORT lib/g8/grass_rainforest_vhot_rain.for Trees/grass_rainforest_vhot_rain.for
+
+EXPORT lib/g8/orch_hot_dry.for Trees/orch_hot_dry.for
+EXPORT lib/g8/orch_hot_rain.for Trees/orch_hot_rain.for
+EXPORT lib/g8/orch_hot_sdry.for Trees/orch_hot_sdry.for
+EXPORT lib/g8/orch_hot_wet.for Trees/orch_hot_wet.for
+
+EXPORT lib/g8/orch_tmp_dry.for Trees/orch_tmp_dry.for
+EXPORT lib/g8/orch_tmp_rain.for Trees/orch_tmp_rain.for
+EXPORT lib/g8/orch_tmp_sdry.for Trees/orch_tmp_sdry.for
+EXPORT lib/g8/orch_tmp_wet.for Trees/orch_tmp_wet.for
+
+EXPORT lib/g8/orch_vhot_dry.for Trees/orch_vhot_dry.for
+EXPORT lib/g8/orch_vhot_rain.for Trees/orch_vhot_rain.for
+EXPORT lib/g8/orch_vhot_sdry.for Trees/orch_vhot_sdry.for
+EXPORT lib/g8/orch_vhot_wet.for Trees/orch_vhot_wet.for
+
+EXPORT lib/g8/olive_wrm_sdry.for Trees/olive_wrm_sdry.for
+
+EXPORT lib/g8/orch_wrm_dry.for Trees/orch_wrm_dry.for
+EXPORT lib/g8/orch_wrm_rain.for Trees/orch_wrm_rain.for
+EXPORT lib/g8/orch_wrm_sdry.for Trees/orch_wrm_sdry.for
+EXPORT lib/g8/orch_wrm_wet.for Trees/orch_wrm_wet.for
+
+EXPORT lib/g8/rainforest_sp_vhot_rain.for Trees/rainforest_sp_vhot_rain.for
+EXPORT lib/g8/rainforest_vhot_rain.for Trees/rainforest_vhot_rain.for
+EXPORT lib/g8/rainforestm_sp_vhot_rain.for Trees/rainforestm_sp_vhot_rain.for
+EXPORT lib/g8/rainforestm_vhot_rain.for Trees/rainforestm_vhot_rain.for
+
+EXPORT lib/g8/shrb_cld_dry.for Trees/shrb_cld_dry.for
+EXPORT lib/g8/shrb_cld_rain.for Trees/shrb_cld_rain.for
+EXPORT lib/g8/shrb_cld_sdry.for Trees/shrb_cld_sdry.for
+EXPORT lib/g8/shrb_cld_wet.for Trees/shrb_cld_wet.for
+
+EXPORT lib/g8/shrb_hot_dry.for Trees/shrb_hot_dry.for
+EXPORT lib/g8/shrb_hot_rain.for Trees/shrb_hot_rain.for
+EXPORT lib/g8/shrb_hot_sdry.for Trees/shrb_hot_sdry.for
+EXPORT lib/g8/shrb_hot_wet.for Trees/shrb_hot_wet.for
+
+EXPORT lib/g8/shrb_tmp_dry.for Trees/shrb_tmp_dry.for
+EXPORT lib/g8/shrb_tmp_rain.for Trees/shrb_tmp_rain.for
+EXPORT lib/g8/shrb_tmp_sdry.for Trees/shrb_tmp_sdry.for
+EXPORT lib/g8/shrb_tmp_wet.for Trees/shrb_tmp_wet.for
+
+EXPORT lib/g8/shrb_vcld_dry.for Trees/shrb_vcld_dry.for
+EXPORT lib/g8/shrb_vcld_rain.for Trees/shrb_vcld_rain.for
+EXPORT lib/g8/shrb_vcld_sdry.for Trees/shrb_vcld_sdry.for
+EXPORT lib/g8/shrb_vcld_wet.for Trees/shrb_vcld_wet.for
+
+EXPORT lib/g8/shrb_vhot_dry.for Trees/shrb_vhot_dry.for
+EXPORT lib/g8/shrb_vhot_rain.for Trees/shrb_vhot_rain.for
+EXPORT lib/g8/shrb_vhot_sdry.for Trees/shrb_vhot_sdry.for
+EXPORT lib/g8/shrb_vhot_wet.for Trees/shrb_vhot_wet.for
+
+EXPORT lib/g8/shrb_wrm_dry.for Trees/shrb_wrm_dry.for
+EXPORT lib/g8/shrb_wrm_rain.for Trees/shrb_wrm_rain.for
+EXPORT lib/g8/shrb_wrm_sdry.for Trees/shrb_wrm_sdry.for
+EXPORT lib/g8/shrb_wrm_wet.for Trees/shrb_wrm_wet.for
+
+EXPORT lib/g8/sparse_hot_dry.for Trees/sparse_hot_dry.for
+EXPORT lib/g8/sparse_hot_sdry.for Trees/sparse_hot_sdry.for
+EXPORT lib/g8/sparse_tr_hot_dry.for Trees/sparse_tr_hot_dry.for
+EXPORT lib/g8/sparse_tr_hot_sdry.for Trees/sparse_tr_hot_sdry.for
+EXPORT lib/g8/sparse_tr_vhot_dry.for Trees/sparse_tr_vhot_dry.for
+EXPORT lib/g8/sparse_tr_vhot_sdry.for Trees/sparse_tr_vhot_sdry.for
+EXPORT lib/g8/sparse_vhot_dry.for Trees/sparse_vhot_dry.for
+EXPORT lib/g8/sparse_vhot_sdry.for Trees/sparse_vhot_sdry.for
+
+EXPORT lib/g8/wetl_shrb_cld_dry.for Trees/wetl_shrb_cld_dry.for
+EXPORT lib/g8/wetl_shrb_cld_rain.for Trees/wetl_shrb_cld_rain.for
+EXPORT lib/g8/wetl_shrb_cld_sdry.for Trees/wetl_shrb_cld_sdry.for
+EXPORT lib/g8/wetl_shrb_cld_wet.for Trees/wetl_shrb_cld_wet.for
+
+EXPORT lib/g8/wetl_shrb_hot_dry.for Trees/wetl_shrb_hot_dry.for
+EXPORT lib/g8/wetl_shrb_hot_rain.for Trees/wetl_shrb_hot_rain.for
+EXPORT lib/g8/wetl_shrb_hot_sdry.for Trees/wetl_shrb_hot_sdry.for
+EXPORT lib/g8/wetl_shrb_hot_wet.for Trees/wetl_shrb_hot_wet.for
+
+EXPORT lib/g8/wetl_shrb_tmp_dry.for Trees/wetl_shrb_tmp_dry.for
+EXPORT lib/g8/wetl_shrb_tmp_rain.for Trees/wetl_shrb_tmp_rain.for
+EXPORT lib/g8/wetl_shrb_tmp_sdry.for Trees/wetl_shrb_tmp_sdry.for
+EXPORT lib/g8/wetl_shrb_tmp_wet.for Trees/wetl_shrb_tmp_wet.for
+
+EXPORT lib/g8/wetl_shrb_vcld_dry.for Trees/wetl_shrb_vcld_dry.for
+EXPORT lib/g8/wetl_shrb_vcld_rain.for Trees/wetl_shrb_vcld_rain.for
+EXPORT lib/g8/wetl_shrb_vcld_sdry.for Trees/wetl_shrb_vcld_sdry.for
+EXPORT lib/g8/wetl_shrb_vcld_wet.for Trees/wetl_shrb_vcld_wet.for
+
+EXPORT lib/g8/wetl_shrb_vhot_dry.for Trees/wetl_shrb_vhot_dry.for
+EXPORT lib/g8/wetl_shrb_vhot_rain.for Trees/wetl_shrb_vhot_rain.for
+EXPORT lib/g8/wetl_shrb_vhot_sdry.for Trees/wetl_shrb_vhot_sdry.for
+EXPORT lib/g8/wetl_shrb_vhot_wet.for Trees/wetl_shrb_vhot_wet.for
+
+EXPORT lib/g8/wetl_shrb_wrm_dry.for Trees/wetl_shrb_wrm_dry.for
+EXPORT lib/g8/wetl_shrb_wrm_rain.for Trees/wetl_shrb_wrm_rain.for
+EXPORT lib/g8/wetl_shrb_wrm_sdry.for Trees/wetl_shrb_wrm_sdry.for
+EXPORT lib/g8/wetl_shrb_wrm_wet.for Trees/wetl_shrb_wrm_wet.for
+
+EXPORT lib/g8/wetl_wdy_cld_dry.for Trees/wetl_wdy_cld_dry.for
+EXPORT lib/g8/wetl_wdy_cld_rain.for Trees/wetl_wdy_cld_rain.for
+EXPORT lib/g8/wetl_wdy_cld_sdry.for Trees/wetl_wdy_cld_sdry.for
+EXPORT lib/g8/wetl_wdy_cld_wet.for Trees/wetl_wdy_cld_wet.for
+
+EXPORT lib/g8/wetl_wdy_hot_dry.for Trees/wetl_wdy_hot_dry.for
+EXPORT lib/g8/wetl_wdy_hot_rain.for Trees/wetl_wdy_hot_rain.for
+EXPORT lib/g8/wetl_wdy_hot_sdry.for Trees/wetl_wdy_hot_sdry.for
+EXPORT lib/g8/wetl_wdy_hot_wet.for Trees/wetl_wdy_hot_wet.for
+
+EXPORT lib/g8/wetl_wdy_tmp_dry.for Trees/wetl_wdy_tmp_dry.for
+EXPORT lib/g8/wetl_wdy_tmp_rain.for Trees/wetl_wdy_tmp_rain.for
+EXPORT lib/g8/wetl_wdy_tmp_sdry.for Trees/wetl_wdy_tmp_sdry.for
+EXPORT lib/g8/wetl_wdy_tmp_wet.for Trees/wetl_wdy_tmp_wet.for
+
+EXPORT lib/g8/wetl_wdy_vcld_dry.for Trees/wetl_wdy_vcld_dry.for
+EXPORT lib/g8/wetl_wdy_vcld_rain.for Trees/wetl_wdy_vcld_rain.for
+EXPORT lib/g8/wetl_wdy_vcld_sdry.for Trees/wetl_wdy_vcld_sdry.for
+EXPORT lib/g8/wetl_wdy_vcld_wet.for Trees/wetl_wdy_vcld_wet.for
+
+EXPORT lib/g8/wetl_wdy_vhot_dry.for Trees/wetl_wdy_vhot_dry.for
+EXPORT lib/g8/wetl_wdy_vhot_rain.for Trees/wetl_wdy_vhot_rain.for
+EXPORT lib/g8/wetl_wdy_vhot_sdry.for Trees/wetl_wdy_vhot_sdry.for
+EXPORT lib/g8/wetl_wdy_vhot_wet.for Trees/wetl_wdy_vhot_wet.for
+
+EXPORT lib/g8/wetl_wdy_wrm_dry.for Trees/wetl_wdy_wrm_dry.for
+EXPORT lib/g8/wetl_wdy_wrm_rain.for Trees/wetl_wdy_wrm_rain.for
+EXPORT lib/g8/wetl_wdy_wrm_sdry.for Trees/wetl_wdy_wrm_sdry.for
+EXPORT lib/g8/wetl_wdy_wrm_wet.for Trees/wetl_wdy_wrm_wet.for
+
+
+
+
+# Tree Objects ####################################################################################################
+
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_01_8m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_01_10m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_01_12m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_01_14m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_02_8m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_02_10m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_02_12m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_02_14m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_03_8m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_03_10m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_03_12m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_03_14m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_04_8m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_04_10m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_04_12m.obj
+EXPORT lib/airport/Common_Elements/Miscellaneous/Tree.obj Trees/Tree_04_14m.obj
+EXPORT lib/g10/forests/autogen_tree4.obj Trees/Tree_01_8m.obj
+EXPORT lib/g10/forests/autogen_tree4.obj Trees/Tree_01_10m.obj
+EXPORT lib/g10/forests/autogen_tree4.obj Trees/Tree_01_12m.obj
+EXPORT lib/g10/forests/autogen_tree4.obj Trees/Tree_01_14m.obj
+EXPORT lib/g10/forests/autogen_tree3.obj Trees/Tree_02_8m.obj
+EXPORT lib/g10/forests/autogen_tree3.obj Trees/Tree_02_10m.obj
+EXPORT lib/g10/forests/autogen_tree3.obj Trees/Tree_02_12m.obj
+EXPORT lib/g10/forests/autogen_tree3.obj Trees/Tree_02_14m.obj
+EXPORT lib/g10/forests/autogen_tree2.obj Trees/Tree_04_8m.obj
+EXPORT lib/g10/forests/autogen_tree2.obj Trees/Tree_04_10m.obj
+EXPORT lib/g10/forests/autogen_tree2.obj Trees/Tree_04_12m.obj
+EXPORT lib/g10/forests/autogen_tree2.obj Trees/Tree_04_14m.obj
+EXPORT lib/g10/forests/autogen_tree1.obj Trees/Tree_03_8m.obj
+EXPORT lib/g10/forests/autogen_tree1.obj Trees/Tree_03_10m.obj
+EXPORT lib/g10/forests/autogen_tree1.obj Trees/Tree_03_12m.obj
+EXPORT lib/g10/forests/autogen_tree1.obj Trees/Tree_03_14m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_01_8m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_01_10m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_01_12m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_01_14m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_02_8m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_02_10m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_02_12m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_02_14m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_03_8m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_03_10m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_03_12m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_03_14m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_04_8m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_04_10m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_04_12m.obj
+EXPORT lib/g10/forests/autogen_tree_any.obj Trees/Tree_04_14m.obj

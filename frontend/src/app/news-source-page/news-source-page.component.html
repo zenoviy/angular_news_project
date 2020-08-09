@@ -1,0 +1,27 @@
+<section  class="main-body-wrapper content-wrapper ">
+    <app-template-breadcrumbs></app-template-breadcrumbs>
+  <h2 *ngIf="newsTitle">{{newsTitle}}</h2>
+
+<!--singleNews.title.arr.split(' ').map((x, i) => { if(i<5){return x}else{return false}}).splice(0,5).join('-')-->
+  <div class="row">
+    <ng-container *ngIf="newsObject.news">
+      <div class="" *ngFor="let singleNews of newsObject.news; " class="card col-md-4 col-sm-1">
+        <div *ngIf="singleNews.title" >
+            <a [routerLink]="[ newSource, singleNews.articleUrl]" ><img  class="card-img-top" src="{{singleNews.urlToImage}}" alt="Card image cap">
+            <div class="card-body">
+              <h3>{{singleNews.title}}</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div></a>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <button (click) ="showMore()">Show more</button>
+</section>
+<router-outlet ></router-outlet>
+<!--<section *ngIf="newSource.toLowerCase() != newsTitle.toLowerCase()">
+
+</section>-->
+
+

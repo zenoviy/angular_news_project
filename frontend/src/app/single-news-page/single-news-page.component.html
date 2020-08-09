@@ -1,0 +1,31 @@
+
+<div class="main-body-wrapper content-wrapper">
+    <app-template-breadcrumbs></app-template-breadcrumbs>
+
+  <div class="row">
+   <div *ngIf="newsObject" [ngClass]="' col-md-9 col-sm-12'">
+      <h1>{{newsObject.title}}</h1>
+      <img width="100%" src="{{newsObject.urlToImage}}" alt="">
+      <p>{{newsObject.title}}</p>
+      <br>
+      <p>{{newsObject.content}}</p>
+      <p>
+        <span class="data">{{newsObject.publishedAt}}</span>
+      </p>
+
+    </div>
+    <div [ngClass]="' col-md-3 col-sm-12'">
+      <div *ngFor = 'let relNews of relativeNews' class="row side-relative-article-card">
+        <a [routerLink]="[ '/'+relNews.src, relNews.articleUrl]" >
+          <div [ngClass]="'col-md-5 col-sm-7'">
+            <img class="relative-news-pictures" src="{{relNews.urlToImage}}" alt="article picture">
+          </div>
+          <div [ngClass]="'col-md-7 col-sm-3'">
+              <p>{{relNews.title}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>

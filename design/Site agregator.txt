@@ -1,0 +1,43 @@
+color1 - #F77B63
+color2 - #8B8B8B
+color3 - #F3F3F3
+
+BLACK FONT - #2F2F2F
+
+- Search
+- Latest news (carousel )
+- News list  
+	-by news resource ( by brand )	 
+		- single news
+			-Header picture
+			-Article heading
+			-Article description
+			-pictures
+			-Article text
+				
+			-Link to original 
+			
+			-Share news
+			-Leave comments
+				-need to be regisrated
+				-name, 4 row of comments & show more button
+			-Rate this news (stars)(likes)
+-LogIn
+	-registration
+	-logOut
+	-Profyle Personal info
+		-Photo
+		-name
+		-email
+		-chosen news
+			-delate news
+			-read 
+			-share
+-Contact us
+	- information about site	
+	- Name
+	- Email
+	- Subject
+	- Textarea
+
+			

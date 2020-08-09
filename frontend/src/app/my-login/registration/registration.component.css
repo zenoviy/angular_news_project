@@ -1,0 +1,19 @@
+form input{
+  display: block;
+  width:95%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding:10px;
+  border-radius:5px;
+  border: 1px solid #bbb;
+}
+.form-active-option{
+  border-bottom: 2px solid red;
+}
+.data-message{
+  font-size: 14px;
+  color: #606060;
+}
+/*.facebook-btn{
+  float:right;
+}*/

@@ -1,0 +1,21 @@
+form input{
+  display: block;
+  width:95%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding:10px;
+  border-radius:5px;
+  border: 1px solid #bbb;
+}
+.form-upper-option-btn{
+  color: rgb(51, 74, 136);
+  background: none;
+  border-radius: 0px;
+  width:40%;
+}
+.form-active-option{
+  color: red;
+  border-bottom: 2px solid red;
+
+}
+
